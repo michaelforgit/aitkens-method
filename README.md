@@ -1,4 +1,4 @@
-# atikens-method
+# aitkens-method
 
 MATLAB Code to find the root of an equation. Doesn't need the first derivative unlike Newton's method.
 
