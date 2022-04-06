@@ -7,7 +7,7 @@ iterAmount = input("Enter amount of interations you would like to make\n");
 a = [p0]; %Array starts at 1.  p0 = a[1].
 
  for i = 2 : iterAmount+4
-     a(i) = pn(i-1);
+     a(i) = pn(a(i-1));
  end
  fprintf("\nAtiken's Method p0=%d\n", p0);
  for i = 1: iterAmount+1  %Starts at n = 0 and goes to n = iterAmount;
