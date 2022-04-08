@@ -1,5 +1,5 @@
 %Original Author(s):  Michael O'Gorman
-%Atiken's Method or Atiken's delta-squared process
+%Aitken's Method or Aitken's delta-squared process
 pnString = input("Enter pn in terms of x\n");  %User must use '' around equation.  Example:  'cos(1/x)'
 pn = inline(pnString, 'x');
 p0 = input("Enter p0\n");
